@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\AndriData\\ProgramFiles\\nodeJS\\node.exe',
+1 verbose cli   'D:\\AndriData\\ProgramFiles\\nodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova' ]
+2 info using npm@3.4.0
+3 info using node@v5.1.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData cordova
+8 silly fetchNamedPackageData cordova
+9 silly mapToRegistry name cordova
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/cordova
+13 verbose request uri https://registry.npmjs.org/cordova
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:31:51 PM
+16 verbose request id 3c0325c64cfbb9bd
+17 http request GET https://registry.npmjs.org/cordova
+18 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 10.2.46.48:5678
+19 info attempt registry request try #2 at 2:32:02 PM
+20 http request GET https://registry.npmjs.org/cordova
+21 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 10.2.46.48:5678
+22 info attempt registry request try #3 at 2:33:03 PM
+23 http request GET https://registry.npmjs.org/cordova
+24 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 10.2.46.48:5678
+24 silly fetchPackageMetaData     at ClientRequest.onError (D:\AndriData\ProgramFiles\nodeJS\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:174:17)
+24 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+24 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+24 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+24 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:265:9)
+24 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+24 silly fetchPackageMetaData     at Socket.emit (events.js:169:7)
+24 silly fetchPackageMetaData     at emitErrorNT (net.js:1253:8)
+24 silly fetchPackageMetaData     at doNTCallback2 (node.js:452:9)
+24 silly fetchPackageMetaData     at process._tickCallback (node.js:366:17)
+24 silly fetchPackageMetaData  error for cordova { [Error: tunneling socket could not be established, cause=connect ECONNREFUSED 10.2.46.48:5678] code: 'ECONNRESET' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: tunneling socket could not be established, cause=connect ECONNREFUSED 10.2.46.48:5678
+30 verbose stack     at ClientRequest.onError (D:\AndriData\ProgramFiles\nodeJS\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:174:17)
+30 verbose stack     at ClientRequest.g (events.js:260:16)
+30 verbose stack     at emitOne (events.js:77:13)
+30 verbose stack     at ClientRequest.emit (events.js:169:7)
+30 verbose stack     at Socket.socketErrorListener (_http_client.js:265:9)
+30 verbose stack     at emitOne (events.js:77:13)
+30 verbose stack     at Socket.emit (events.js:169:7)
+30 verbose stack     at emitErrorNT (net.js:1253:8)
+30 verbose stack     at doNTCallback2 (node.js:452:9)
+30 verbose stack     at process._tickCallback (node.js:366:17)
+31 verbose cwd D:\AndriData\Project\MeteorClub\cityforks
+32 error Windows_NT 6.1.7601
+33 error argv "D:\\AndriData\\ProgramFiles\\nodeJS\\node.exe" "D:\\AndriData\\ProgramFiles\\nodeJS\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "cordova"
+34 error node v5.1.0
+35 error npm  v3.4.0
+36 error code ECONNRESET
+37 error network tunneling socket could not be established, cause=connect ECONNREFUSED 10.2.46.48:5678
+37 error network This is most likely not a problem with npm itself
+37 error network and is related to network connectivity.
+37 error network In most cases you are behind a proxy or have bad network settings.
+37 error network
+37 error network If you are behind a proxy, please make sure that the
+37 error network 'proxy' config is set properly.  See: 'npm help config'
+38 verbose exit [ 1, true ]
